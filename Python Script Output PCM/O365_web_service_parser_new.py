@@ -336,7 +336,7 @@ def WebServiceParser():
             # grab output in JSON format
             output = req.json()
             url_not_default = open('url_not_default.txt','r') 
-            url_default = open('url_default.txt','rw')
+            url_default = ipen('url_default.txt','rw')
             IP_not_default = open('ip_not_default.txt','w')
             IP_default = open('ip_default.txt','w')
             #Update From Original                 
