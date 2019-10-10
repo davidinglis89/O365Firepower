@@ -333,7 +333,10 @@ def WebServiceParser():
 
             # grab output in JSON format
             output = req.json()
-
+            URL_List = []
+            URL_default_list = []
+            IP_List = []
+            IP_default_list = []
             # iterate through each 'item' in the JSON data
             for item in output:
 
