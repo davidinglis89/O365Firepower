@@ -324,8 +324,10 @@ def WebServiceParser():
 
         # initiate lists to be filled with addresses
         URL_List = []
+                             origin test
         URL_default_list = []
         IP_List = []
+                             again test
         IP_default_list = []
         Test
                              test1
