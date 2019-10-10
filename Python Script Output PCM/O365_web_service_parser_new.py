@@ -335,10 +335,11 @@ def WebServiceParser():
 
             # grab output in JSON format
             output = req.json()
-            url_not_default = open('url_not_default.txt','w') 
+            url_not_default = open('url_not_default.txt','r') 
             url_default = open('url_default.txt','w')
             IP_not_default = open('ip_not_default.txt','w')
             IP_default = open('ip_default.txt','w')
+            #Update From Original                 
             # iterate through each 'item' in the JSON data
             for item in output:
                 # make sure URLs exist in the item
